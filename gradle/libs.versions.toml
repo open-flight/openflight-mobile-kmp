@@ -11,7 +11,7 @@
 #   iosArm64/iosSimulatorArm64). Versions checked on 2026-09-24 against Google Maven.
 # - detekt 2.x is still alpha, so we use 1.23.8 (latest stable).
 [versions]
-agp = "9.4.1"
+agp = "9.5.1"
 android-compileSdk = "37"
 android-minSdk = "26"
 android-targetSdk = "37"
@@ -35,11 +35,11 @@ ktlint = "1.8.0"
 # Compose lint rules run as a ktlint custom rule set through Spotless (Compose modules only).
 # 0.6.7 is built against ktlint 1.8.0 (its POM and docs/ktlint.md matrix); bump both together.
 compose-rules = "0.6.8"
-ktor = "3.6.0"
+ktor = "3.6.1"
 # Invariant 4 (module graph) as a build check: com.jraska.module.graph.assertion, plugin portal.
 module-graph-assert = "2.9.1"
 okio = "3.18.2"
-spotless = "8.10.4"
+spotless = "8.11.0"
 turbine = "1.2.1"
 androidx-compose-bom = "2026.09.00"
 androidx-lifecycle = "2.11.0"
@@ -58,7 +58,7 @@ kmp-nativecoroutines = "1.0.6"
 #   fixed KSP with Kotlin 2.4 module names and AGP 9 built-in Kotlin.
 room3 = "3.0.3"
 sqlite = "2.7.1"
-ksp = "2.3.12"
+ksp = "2.3.13"
 
 [libraries]
 # Test
